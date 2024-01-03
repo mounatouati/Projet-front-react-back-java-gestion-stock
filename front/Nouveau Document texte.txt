@@ -1,0 +1,4 @@
+pour ajouter maps a mon projet
+=>  installez les dépendances
+npm i react-map-gl react-map-gl-geocoder
+npm start => pour demarrer le projet 

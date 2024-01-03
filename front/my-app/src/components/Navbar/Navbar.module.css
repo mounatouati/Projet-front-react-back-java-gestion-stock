@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding:0px; 
+    margin: 0px;
+    height: 100%; 
+    width: 25%;
+    background-color:rgb(133, 207, 186);
+    /* position: relative; */
+    padding-bottom: 100px; /* Ajoutez un padding en bas du conteneur principal */
+
+}
+.div1{
+  /* padding-bottom: 100px; /* Ajoutez un padding en bas du conteneur principal */
+/* 
+  width:100%;
+  align-items: center;
+  justify-content: center;  */
+}
+
+.submenu  li a:hover{
+   /* display: block; */
+   /* color:brown; */
+   
+}
+/* .sidebar {
+  width: 200px;
+  height: 90%;
+  background-color: #03736a;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex; /* Utilisez un conteneur flex pour afficher les éléments en colonne */
+   /* flex-direction: column;
+}   */
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0PX;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+  }
+  
+  li {
+    float:none; 
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li a {
+    width: 20rem;
+    margin-top: 0px;
+    display:flex;
+    justify-content: center;
+    color:rgb(14, 14, 14);
+    text-align: center;
+    text-decoration: none;
+  }
+ .submenu li a {
+   /* Ajoute une bordure de 1 pixel solide avec la couleur spécifiée */
+   /* border: 1px solid black;  */
+   /* background-color:beige; */
+   /* color: rgb(73, 36, 36); */
+  /* padding-right: 5px; */
+  /* padding-left: 5px; */
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    /* background-color:rgb(251, 249, 249); */
+    border-color:paleturquoise;
+    color:rgb(53, 4, 4); 
+    font-weight: bolder;
+    /* padding-right: 5px;
+    padding-left: 5px;
+    padding: 0px; */
+  }
+  .div2{
+    margin-left: 5%;
+  }
+.submenu {
+      /* position: absolute;      */
+      /* top: 100%; */
+      left: 0;
+      background-color: rgb(133, 207, 186);
+      z-index: 1;
+      font-size: 0.5em;
+      display: flex;
+      flex-direction: column; /* Empile les éléments verticalement */
+      align-items: center;
+      justify-content: center;
+      /* padding:0px; 
+      margin: 0px;
+      height: 100%; 
+      width: 100%; */
+    }
+menu
+    
+
+.menuitem {
+  
+      /* position: relative;  */
+      cursor: pointer;
+    }
+.menucontainer {
+      position: relative;
+     /* Ajoutez une marge en bas du conteneur de menu pour séparer les éléments */
+     /* margin-bottom: 20px;  */
+      /* display: inline-block; */
+    }

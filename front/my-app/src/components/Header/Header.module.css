@@ -1,0 +1,39 @@
+.container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4px;
+    background-color: rgb(237, 245, 244);
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding:0px;
+    margin: 0px;
+}
+.link1{
+    /* display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between; */
+    color:rgb(133, 207, 186);
+    border-radius: 0%;
+}
+.click {
+    text-decoration: none;
+    color:rgb(44, 39, 39);
+    border-radius: 10%;
+    /* width: 50px; */
+    background: rgb(237, 245, 244);
+    font-size: 15px;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .click:hover {
+    background:rgb(133, 207, 186);
+    color:black;
+  }

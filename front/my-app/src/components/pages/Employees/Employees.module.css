@@ -1,0 +1,9 @@
+.tablerowodd {
+   
+    background-color: #02d59d; /* Couleur de fond pour les lignes impaires */
+  }
+  
+  /* Style pour les lignes paires */
+.tableroweven {
+    background-color: #752323; /* Couleur de fond pour les lignes paires */
+  }

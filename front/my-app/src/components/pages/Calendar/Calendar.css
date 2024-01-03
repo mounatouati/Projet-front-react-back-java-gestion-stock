@@ -1,0 +1,74 @@
+.calendar {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header with navigation buttons */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Weekdays row */
+.weekdays {
+  display: flex;
+}
+
+/* Weekday cell */
+.weekday {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #f0f0f0;
+}
+
+/* Days container */
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+/* Week container */
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+/* Day cell */
+.day {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Style for days of the current month */
+.day:not(.day-other-month) {
+  background-color: #fff;
+}
+
+/* Style for days of other months */
+.day-other-month {
+  background-color: #f0f0f0;
+}
+
+/* Style for today's date */
+.day-today {
+  background-color: #ffcccb;
+}
+
+/* Style for the selected date */
+.day-selected {
+  background-color: #87cefa;
+  color: #fff;
+}

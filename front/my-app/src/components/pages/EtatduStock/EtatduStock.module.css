@@ -1,0 +1,9 @@
+/* Style pour les lignes impaires */
+.table-row-odd {
+    background-color: rgb(40, 112, 88); /* Couleur de fond pour les lignes impaires */
+  }
+  
+  /* Style pour les lignes paires */
+  .table-row-even {
+    background-color: rgb(127, 213, 191); /* Couleur de fond pour les lignes paires */
+  }

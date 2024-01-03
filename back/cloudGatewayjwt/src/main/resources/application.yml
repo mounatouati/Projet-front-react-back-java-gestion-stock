@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: GATEWAY-SERVICE
+  cloud:
+    gateway:
+      routes:
+       - id: stock-service
+         uri: lb://STOCK-SERVICE
+         predicates:
+           - Path=/api/v1/stock/**
+         filters:
+           - JwtAuthenticationFilter
+
+       - id: auth-service
+         uri: lb://AUTH-SERVICE
+         predicates:
+           - Path=/api/v1/auth/**
+         
+      default-filters:
+        - DedupeResponseHeader=Acces-Control-Allow-Credentials Acces-Control-Allow-Origin
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedHeaders:  
+            - "Content-Type"
+            - "Authorization"
+            allowedMethods:
+            - "GET"
+            - "POST"
+            - "PUT"
+            - "DELETE" 
+         
+            
